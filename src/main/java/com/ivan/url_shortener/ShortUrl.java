@@ -23,7 +23,6 @@ public class ShortUrl
     public Long getId()
     {
         return id;
-        
     } 
     public void setId(Long id) 
     {
@@ -60,5 +59,6 @@ public class ShortUrl
     public void setCreatedAt(LocalDateTime createdAt)
     {
         this.createdAt = createdAt;
+
     }
 }
